@@ -1,0 +1,157 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --bacground-fon-color: #e5e5e5;
+  --futer-color: #2f303a;
+}
+body {
+  background-color: var(--bacground-fon-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+}
+ul {
+  list-style: none;
+}
+header {
+  background-color: #ffffff;
+}
+footer {
+  background-color: #2f303a;
+}
+/* цвет основного текста #757575 */
+/* цвет второстепенного текста #212121 */
+/* цвет акцента #2196F3 */
+/* белый #FFFFFF*/
+/* цвет futer #2F303A */
+/* цвет фона #E5E5E5 */
+
+/* Stiles for index.html */
+.logo {
+  color: #000000;
+
+  text-decoration: none;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
+/* Site nav */
+.nav-site .link {
+  color: var(--title-text-color);
+
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.nav-site .link:hover,
+.nav-site .link:focus {
+  color: var(--accent-color);
+}
+.nav-site .link-current {
+  color: var(--accent-color);
+}
+.auth .link {
+  color: var(--primary-text-color);
+
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.auth .link:hover,
+.auth .link:focus {
+  color: var(--accent-color);
+}
+/* Section oder */
+.oder {
+  background-color: #2f303a;
+}
+.oder-title {
+  color: #ffffff;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+}
+.oder .button {
+  color: #ffffff;
+  background-color: var(--accent-color);
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+}
+.oder .button:hover,
+.oder .button:focus {
+  background-color: #188ce8;
+}
+/* Site section */
+.section-title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+/* Section advant */
+.main-title {
+  color: transparent;
+}
+.advant .title {
+  color: var(--title-text-color);
+
+  font-weight: 700d;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.advant .text {
+  font-size: 14px;
+  line-height: 1.7;
+}
+/* Section team */
+.section-tean {
+  background-color: #f5f4fa;
+}
+.name {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.position {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* Futer */
+.adress .coordinates {
+  color: #ffffff;
+  text-decoration: none;
+  font-style: normal;
+}
+.adress .link {
+  color: #ffffff, 0.6;
+  text-decoration: none;
+  font-style: normal;
+}
+.adress .link:hover,
+.adress .link:focus {
+  color: var(--accent-color);
+}
+
+/* Styles for portfolio.html */
+.filter .button {
+  color: var(--primary-text-color);
+  background-color: #ffffff;
+}
+.filter .button:hover,
+.filter .button:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
