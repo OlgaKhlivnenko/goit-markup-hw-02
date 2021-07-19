@@ -67,7 +67,7 @@ body {
   color: var(--accent-color);
   text-decoration: none;
 
-  ont-weight: 500;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
 }
@@ -108,8 +108,7 @@ body {
   background-color: var(--focus-btn);
 }
 /* Site section */
-.features-title,
-.team-title {
+.features-title {
   color: var(--title-text-color);
   background-color: var(--white);
   font-weight: 700;
@@ -145,6 +144,14 @@ body {
 /* Section team */
 .team {
   background-color: var(--bacground-fon-color);
+}
+.team-title {
+  background-color: var(--bacground-fon-color);
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
 }
 .team-name {
   color: var(--title-text-color);
