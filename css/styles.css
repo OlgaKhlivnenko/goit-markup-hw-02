@@ -1,8 +1,8 @@
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
-  --black: #000000;
-  --white: #ffffff;
+  --logo-color: #000000;
+  --primary-white-color: #ffffff;
   --accent-color: #2196f3;
   --focus-btn: #188ce8;
   --bacground-fon-color: #f5f4fa;
@@ -10,7 +10,7 @@
   --link-color: rgba(255, 255, 255, 0.6);
 }
 body {
-  background-color: var(--white);
+  background-color: var(--primary-white-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
 }
@@ -24,10 +24,10 @@ body {
 
 /* Stiles for index.html */
 .header {
-  background-color: var(--white);
+  background-color: var(--primary-white-color);
 }
 .logo {
-  color: var(--black);
+  color: var(--logo-color);
   text-decoration: none;
   font-style: normal;
 
@@ -45,7 +45,7 @@ body {
 }
 /* Site nav */
 .header {
-  background-color: var(--white);
+  background-color: var(--primary-white-color);
 }
 .nav-list,
 .auth-list {
@@ -79,12 +79,15 @@ body {
   font-size: 14px;
   line-height: 1.14;
 }
+.auth-link:hover,
+.auth-link:focus {
+  color: var(--accent-color);}
 /* Section oder */
 .oder {
   background-color: var(--footer-color);
 }
 .oder-title {
-  color: var(--white);
+  color: var(--primary-white-color);
 
   font-weight: 900;
   font-size: 44px;
@@ -92,7 +95,7 @@ body {
   text-align: center;
 }
 .oder-btn {
-  color: var(--white);
+  color: var(--primary-white-color);
   background-color: var(--accent-color);
 
   font-family: Roboto;
@@ -110,7 +113,7 @@ body {
 /* Site section */
 .features-title {
   color: var(--title-text-color);
-  background-color: var(--white);
+  background-color: var(--primary-white-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -119,7 +122,7 @@ body {
 /* Section advant */
 .advant,
 .features {
-  background-color: var(--white);
+  background-color: var(--primary-white-color);
 }
 .advant-list,
 .features-list,
@@ -169,7 +172,7 @@ body {
   background-color: var(--footer-color);
 }
 .adress-coordinates {
-  color: var(--white);
+  color: var(--primary-white-color);
   text-decoration: none;
   font-style: normal;
 }
@@ -184,7 +187,7 @@ body {
   color: var(--accent-color);
 }
 .logo-footer {
-  color: var(--white);
+  color: var(--primary-white-color);
   text-decoration: none;
 
   font-style: 700;
@@ -201,7 +204,7 @@ body {
 }
 .filter-btn {
   color: var(--primary-text-color);
-  background-color: var(--white);
+  background-color: var(--bacground-fon-color);
 
   font-family: Roboto;
   font-weight: 500;
@@ -212,7 +215,7 @@ body {
 }
 .filter-btn:hover,
 .filter-btn:focus {
-  color: var(--white);
+  color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
 .works-title {
@@ -220,7 +223,7 @@ body {
 }
 .exmp-link:hover,
 .exmp-link:focus {
-  color: var(--black);
+  color: var(--title-text-color);
 }
 .exmp-link {
   text-decoration: none;
